@@ -1,0 +1,122 @@
+body{
+    background-color: #a69380;
+    background-image: url(dstitle2.jpg);
+    background-repeat: no-repeat;  
+    background-position: right top;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: start;
+    border-right: 1px solid #A07216;
+    border-bottom: 1px solid #A07216;
+    padding: 10px;
+    display: inline-block;
+    height: 80vh;
+    padding: 20x;
+}
+
+.container a {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.quickbutton{
+    text-decoration: none;
+    color: #4f473e;
+    font-size: 22px;
+}
+
+.quickbutton:hover{
+    transition: color .8s;
+    color: orangered;
+}
+
+.header{
+    color: #4f473e;
+}
+
+
+.text{
+    color: #4f473e;
+    position: justify;
+}
+
+.box1{
+    
+    position: relative;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    border: 2px solid;
+    border-color: #A07216;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    top: 50%;
+    margin-top: -300px;
+}
+
+.box2{
+    text-align: center;
+    border: 2px solid;
+    border-color: #A07216;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.TextLink{
+    text-decoration: none;
+    color: #CD3F25;
+    
+}
+
+.boxtitle{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    top: 50%;
+    margin-top: -300px;
+    border: 2px solid gray;
+    animation: 13s infinite glow;
+}
+
+@keyframes glow {
+    0% {
+      border-color: #974141;
+    }
+    25% {
+      border-color: #C09364;
+    }
+    75% {
+      border-color: #B3A976;
+    }
+    100% {
+      border-color: #614242;
+    }
+  }
+  @-webkit-keyframes glow {
+    0% {
+      border-color: #974141;
+    }
+    25% {
+      border-color: #C09364;
+    }
+    75% {
+      border-color: #B3A976;
+    }
+    100% {
+      border-color: #614242;
+    }
+  }
